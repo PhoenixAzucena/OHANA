@@ -11,8 +11,8 @@
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <TabBar>
-        <Tab
+        <Tab/>
     </TabBar>
-    
+   
 
 </Shell>
