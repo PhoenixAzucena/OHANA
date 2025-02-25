@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ohana.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Button x:Name="SosButton"
+                 Margin="0, 200,0, 0"
+                Text="SOS"
+                FontFamily="Helvetica"
+                BackgroundColor="Red"
+                TextColor="White"
+                FontSize="50"
+                CornerRadius="100"
+                WidthRequest="200"
+                HeightRequest="200"
+                Clicked="OnSosButtonClicked">
+            </Button>
+            <Label 
+                Text="Press the SOS button for emergency"
+                FontSize="20" />
+            
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

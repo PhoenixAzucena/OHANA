@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ohana.ProfilePage"
+             >
+    
+    <VerticalStackLayout  
+        Padding="30,0"
+  Spacing="25">
+        
+        <Image 
+            Source="profilepicempty.png" Margin="0,100,0,0"/>
+        <Border       
+          x:Name="Underline"
+          StrokeThickness="0.5" 
+          Stroke="Gray"       
+          Padding="10,2,10,2"
+            >
+
+        <Entry 
+            x:Name="emailOrUsernameInput"
+            Placeholder="Email or Username"
+            FontSize="17"
+            MinimumHeightRequest="50"
+            BackgroundColor="Transparent"
+            />
+        </Border>
+        <Border       
+            x:Name="Underline2"
+            StrokeThickness="0.5" 
+            Stroke="Gray"       
+            Padding="10,2,10,2"
+            Margin="0,-10">
+
+            <Entry 
+            x:Name="Password"
+            Placeholder="Password"
+            FontSize="17"
+            MinimumHeightRequest="50"
+            BackgroundColor="Transparent"/>
+        </Border>
+        <HorizontalStackLayout 
+            Margin="0,20,0,0">
+            <Button 
+                x:Name="logIn"
+                Text="Log In"
+                FontSize="15"
+                MinimumWidthRequest="120"
+                MinimumHeightRequest="40"
+                Margin="16,0,30,0"
+                BackgroundColor="#c30010"
+                />
+            <Button 
+                x:Name="signUp"
+                Text="Sign Up"
+                FontSize="15"
+                MinimumWidthRequest="120"
+                MinimumHeightRequest="40"
+                Margin="30,0,16,0"
+                 BackgroundColor="#c30010"
+               />
+            
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
