@@ -1,9 +1,10 @@
-namespace Ohana;
-
-public partial class NewPage1 : ContentPage
+namespace Ohana
 {
-	public NewPage1()
-	{
-		InitializeComponent();
-	}
+    public partial class NewPage1 : ContentPage
+    {
+        public NewPage1()
+        {
+            InitializeComponent();
+        }
+    }
 }
