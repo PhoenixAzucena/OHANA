@@ -1,8 +1,8 @@
 namespace Ohana
 {
-    public partial class NewPage1 : ContentPage
+    public partial class  SettingsPage : ContentPage
     {
-        public NewPage1()
+        public SettingsPage()
         {
             InitializeComponent();
         }
