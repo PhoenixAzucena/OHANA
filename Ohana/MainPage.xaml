@@ -7,22 +7,6 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Button x:Name="SosButton"
-                 Margin="0, 200,0, 0"
-                Text="SOS"
-                FontFamily="Helvetica"
-                BackgroundColor="Red"
-                TextColor="White"
-                FontSize="50"
-                CornerRadius="100"
-                WidthRequest="200"
-                HeightRequest="200"
-                Clicked="OnSosButtonClicked">
-            </Button>
-            <Label 
-                Text="Press the SOS button for emergency"
-                FontSize="20" />
-            
            
         </VerticalStackLayout>
     </ScrollView>

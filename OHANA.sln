@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85
+VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ohana", "Ohana\Ohana.csproj", "{2E0D90D5-82B0-4CEB-BB93-4041789130DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ohana", "Ohana\Ohana.csproj", "{D3EF985F-D886-4EB6-BE84-0864A944F11E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,16 +11,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E0D90D5-82B0-4CEB-BB93-4041789130DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E0D90D5-82B0-4CEB-BB93-4041789130DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E0D90D5-82B0-4CEB-BB93-4041789130DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{2E0D90D5-82B0-4CEB-BB93-4041789130DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E0D90D5-82B0-4CEB-BB93-4041789130DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3EF985F-D886-4EB6-BE84-0864A944F11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EF985F-D886-4EB6-BE84-0864A944F11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EF985F-D886-4EB6-BE84-0864A944F11E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D3EF985F-D886-4EB6-BE84-0864A944F11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EF985F-D886-4EB6-BE84-0864A944F11E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {366F78BD-AACA-400D-9DA1-5A99D16F0DB7}
+		SolutionGuid = {754AE235-8EA6-4FAA-AB65-D0F720B67664}
 	EndGlobalSection
 EndGlobal
