@@ -23,7 +23,7 @@
                 Text="Press the SOS button for emergency"
                 FontSize="20" />
             
-            
+           
         </VerticalStackLayout>
     </ScrollView>
 

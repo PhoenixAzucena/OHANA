@@ -8,7 +8,6 @@
             InitializeComponent();
         }
 
-        private void OnSosButtonClicked(object sender, EventArgs e)
         {
 
         }

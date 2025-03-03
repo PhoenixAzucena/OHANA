@@ -7,7 +7,7 @@
     <VerticalStackLayout  
         Padding="30,0"
   Spacing="25">
-        
+      
         <Image 
             Source="profilepicempty.png" Margin="0,100,0,0"/>
         <Border       
