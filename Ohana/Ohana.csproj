@@ -65,9 +65,60 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="AppThemePage.xaml.cs">
+	    <DependentUpon>AppThemePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="HardwareDevicePage.xaml.cs">
+	    <DependentUpon>HardwareDevicePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="AlertNotificationsPage.xaml.cs">
+	    <DependentUpon>AlertNotificationsPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="LocationSharingPage.xaml.cs">
+	    <DependentUpon>LocationSharingPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="VersionInformationPage.xaml.cs">
+	    <DependentUpon>VersionInformationPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="TermsAndConditionsPage.xaml.cs">
+	    <DependentUpon>TermsAndConditionsPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="UserGuidePage.xaml.cs">
+	    <DependentUpon>UserGuidePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ProfilePage.xaml.cs">
+	    <DependentUpon>ProfilePage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="SettingsPage.xaml.cs">
 	    <DependentUpon>SettingsPage.xaml</DependentUpon>
 	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="AppThemePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="HardwareDevicePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="AlertNotificationsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="LocationSharingPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="VersionInformationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TermsAndConditionsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="UserGuidePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ProfilePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
