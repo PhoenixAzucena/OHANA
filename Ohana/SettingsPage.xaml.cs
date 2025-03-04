@@ -18,6 +18,7 @@ namespace Ohana
                 "Alert Notifications",
                 "Location Sharing",
                 "User Guide",
+<<<<<<< HEAD
                 "Terms and Conditions",
                 "Version Information"
             };
@@ -45,11 +46,21 @@ namespace Ohana
                 return new ViewCell { View = stackLayout };
             });
         }
+=======
+                "Version Information"
+
+            };
+
+            MyListView.ItemsSource = Items;
+        }
+
+>>>>>>> eddaef0a6856b210e8fba47de03fff615876c826
         private async void OnItemTapped(object sender, ItemTappedEventArgs e)
         {
             if (e.Item != null)
             {
                 var selectedItem = e.Item as string;
+<<<<<<< HEAD
                 Page? nextPage = null;
 
                 // Determine which page to navigate to based on the selected item
@@ -84,6 +95,10 @@ namespace Ohana
                     await Navigation.PushAsync(nextPage);
                 }
 
+=======
+                // Handle the selected item
+                await DisplayAlert("Selected", selectedItem, "OK");
+>>>>>>> eddaef0a6856b210e8fba47de03fff615876c826
                 MyListView.SelectedItem = null; // Deselect the item
             }
         }
