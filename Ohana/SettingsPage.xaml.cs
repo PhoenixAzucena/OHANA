@@ -45,11 +45,11 @@ namespace Ohana
 
                 return new ViewCell { View = stackLayout };
             });
-        }
 
-              
 
-            };
+
+
+         
 
             MyListView.ItemsSource = Items;
         }

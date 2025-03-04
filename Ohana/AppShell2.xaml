@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Shell
+    x:Class="Ohana.AppShell2"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Ohana"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.BackgroundColor="#c30010"
+    Shell.TitleColor="White"
+    Shell.TabBarForegroundColor="#c30010"
+    Shell.TabBarTitleColor="#c30010"
+    Title="Ohana">
+
+    <TabBar>
+        <Tab Title="Report" Icon="warning.png">
+            <ShellContent
+                Title="Report"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="Account" Icon="people.png">
+            <ShellContent
+                Title="Account"
+                ContentTemplate="{DataTemplate local:ProfilePage}"
+                Route="ProfilePage" />
+        </Tab>
+        <Tab Title="Settings" Icon="settings.png">
+            <ShellContent
+                Title="Settings"
+                ContentTemplate="{DataTemplate local:SettingsPage}"
+                Route="SettingsPage" />
+        </Tab>
+    </TabBar>
+</Shell>
