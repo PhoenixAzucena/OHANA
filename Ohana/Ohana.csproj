@@ -77,6 +77,9 @@
 	  <Compile Update="LocationSharingPage.xaml.cs">
 	    <DependentUpon>LocationSharingPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="PersonnelPage.xaml.cs">
+	    <DependentUpon>PersonnelPage.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="VersionInformationPage.xaml.cs">
 	    <DependentUpon>VersionInformationPage.xaml</DependentUpon>
 	  </Compile>
@@ -105,6 +108,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="LocationSharingPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="PersonnelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="VersionInformationPage.xaml">
