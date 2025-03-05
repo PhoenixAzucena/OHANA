@@ -16,19 +16,19 @@
         <Tab Title="Report" Icon="warning.png">
             <ShellContent
                 Title="Report"
-                ContentTemplate="{DataTemplate local:MainPage}"
+                ContentTemplate="{DataTemplate local:PersonnelPage}"
                 Route="MainPage" />
         </Tab>
         <Tab Title="Account" Icon="people.png">
             <ShellContent
                 Title="Account"
-                ContentTemplate="{DataTemplate local:ProfilePage}"
+                ContentTemplate="{DataTemplate local:PersonnelAcc}"
                 Route="ProfilePage" />
         </Tab>
         <Tab Title="Settings" Icon="settings.png">
             <ShellContent
                 Title="Settings"
-                ContentTemplate="{DataTemplate local:SettingsPage}"
+                ContentTemplate="{DataTemplate local:SettingsPersonnel}"
                 Route="SettingsPage" />
         </Tab>
     </TabBar>

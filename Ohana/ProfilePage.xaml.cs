@@ -1,9 +1,18 @@
-namespace Ohana;
+using Microsoft.Maui.Controls;
 
-public partial class ProfilePage : ContentPage
+namespace Ohana
 {
-	public ProfilePage()
-	{
-		InitializeComponent();
-	}
+    public partial class ProfilePage : ContentPage
+    {
+        public ProfilePage()
+        {
+            InitializeComponent();
+            logIn.Clicked += OnLogInButtonClicked;
+        }
+
+        private async void OnLogInButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PersonnelPage());
+        }
+    }
 }
